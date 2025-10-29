@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Aula 34</title>
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/class.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <button id="toggle-theme" aria-label="Alternar tema" title="Alternar tema">🌙</button>
+    
+    <input id="close-menu" class="close-menu" type="checkbox" role="button">
+        <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+
+        <aside class="menu white-bg">
+            <div class="main-content menu-content">
+            <h1><a href="#intro">Logo</a></h1>
+                <nav>
+                <ul onclick="document.getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#grid-one">Grid One</a></li>
+                    <li><a href="#galery">Galeria</a></li>
+                    <li><a href="#pricing">Preços</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                </nav>
+            </div>
+        </aside>
+
+
+    <section id="intro" class="intro main-bg section">
+        <div class="main-content intro-content">
+        <div class="intro-text-content">
+        <h2>Use o navegador que protege o que é importante</h2>
+        <p>Rápido, confiável e privativo — para ter tranquilidade online. Faça o que quiser online. O Navegador Firefox tem tudo o que você precisa.</p>
+        </div>
+            <div class="intro-img">
+                <img src="assets/img/img-navegador.svg" alt="Mulher com celular na mão, e ícones de navegadores mobile">
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="white-bg section">
+        <div class="main-content sobre-content">
+            <h2>O Firefox é para todos</h2>
+            <p>Disponível em mais de 90 idiomas e compatível com Windows, Mac e Linux, o Firefox funciona, não importa o que você esteja usando nem onde está. Verifique se seu sistema operacional está atualizado para que tenha a melhor experiência de uso.</p><br>
+            <p>Confira os requisitos de sistema</p>
+        </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2>Faça isso tudo com o Firefox</h2><br>
+            <div class="grid">
+            <article>
+            <h3>Pesquisa mais inteligente</h3>
+            <li>Pesquisa na barra de endereços</li>
+            <li>Opções de mecanismos de pesquisa</li>
+            <li>Sugestões de pesquisa inteligente</li>
+            <li>Favoritos, histórico e abas abertas nos resultados</li>
+            </article>
+
+            <article>
+            <h3>Aumente sua produtividade</h3>
+            <li>Funciona com produtos Google</li>
+            <li>Ferramenta integrada de captura de tela</li>
+            <li>Gerenciador de favoritos</li>
+            <li>Sugestão automática de páginas</li>
+            <li>Sincronização entre dispositivos</li>
+            <li>Modo de leitura</li>
+            <li>Correção ortográfica</li>
+            <li>Poder fixar abas</li>
+            </article>
+
+            <article>
+            <h3>Transmita, compartilhe e reproduza</h3>
+            <li>Bloqueio de reprodução automática de vídeo e áudio</li>
+            <li>Picture-in-Picture</li>
+            <li>Conteúdo selecionado por especialistas na página de nova aba</li>
+            <li>Compartilhamento de links</li>
+            </article>
+            </div>
+        </div>
+    </section>
+
+        <section id="galery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Galeria</h2><br>
+
+            <div class="grid">
+                <div class="gallery-img">
+                    <img class="img-responsiva" src="./assets/img/jordan-wozniak-xP_AGmeEa6s-unsplash.jpg" alt="imagem natureza" width="300" height="300">
+                </div>
+            <div class="gallery-img">
+                <img class="img-responsiva" src="./assets/img/marcelo-quinan-R3pUGn5YiTg-unsplash.jpg" alt="imagem céu verde" width="300" height="300">
+            </div>
+            <div class="gallery-img">
+                <img class="img-responsiva" src="./assets/img/robert-lukeman-PH0HYjsf2n8-unsplash.jpg" alt="imagem cachoeira céu azul" width="300" height="300">
+            </div>
+
+                <div class="gallery-img">
+                <img class="img-responsiva" src="./assets/img/mark-wang-BDprJxDIsRc-unsplash.jpg" alt="imagem cachoeira céu azul" width="300" height="300">
+            </div>
+
+                <div class="gallery-img">
+                <img class="img-responsiva" src="./assets/img/vaibhav-chauhan-BwAE0P3HUaY-unsplash.jpg" alt="imagem cachoeira céu azul" width="300" height="300">
+            </div>
+
+                <div class="gallery-img">
+                <img class="img-responsiva" src="./assets/img/vutan-minh-5F1NmJGmqgo-unsplash.jpg" alt="imagem cachoeira céu azul" width="300" height="300">
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+        <div class="main-content sobre-content">
+            <h2>Tabela de Preços</h2>
+            <p>Disponível em mais de 90 idiomas e compatível com Windows, Mac e Linux, o Firefox funciona, não importa o que você esteja usando nem onde está. Verifique se seu sistema operacional está atualizado para que tenha a melhor experiência de uso.</p>
+
+            <div>
+            <table>
+                <caption>Tabela de Preços</caption>
+                <thead>
+                    <tr>
+                    <th>Produto 1</th>
+                    <th>Produto 2</th>
+                    <th>Produto 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Conteúdo 1</td>
+                        <td>Conteúdo 2</td>
+                        <td>Conteúdo 3</td>
+                    </tr>
+                    <tr>
+                        <td>Conteúdo 1</td>
+                        <td>Conteúdo 2</td>
+                        <td>Conteúdo 3</td>
+                    </tr>
+                    <tr>
+                        <td>Conteúdo 1</td>
+                        <td>Conteúdo 2</td>
+                        <td>Conteúdo 3</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>Teste Teste</td>
+                    </tr>
+                </tfoot>
+            </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+        <div class="intro-text-content">
+        <h2>Deixe o Firefox do seu jeito</h2>
+        <p>Respaldado pela organização sem fins lucrativos que coloca as pessoas em primeiro lugar</p>
+        </div>
+            <div class="intro-img">
+                <img src="assets/img/icone-telas.svg" alt="Mulher com celular na mão, e ícones de navegadores mobile">
+            </div>
+        <div class="contact-form">
+            <fieldset class="form-grid">
+                <legend>Fale Comigo</legend>
+
+                <div class="form-group">
+                    <label for="first-name">Primeiro Nome</label>
+                    <input type="text" name="first-name" id="first-name"  placeholder="Seu Nome">
+                </div>
+
+                <div class="form-group">
+                    <label for="last-name">Sobrenome</label>
+                    <input type="text" name="last-name" id="last-name"  placeholder="Sobrenome">
+                </div>
+
+                <div class="form-group">
+                    <label for="email" placeholder="E-mail">E-mail</label>
+                    <input type="text" name="email" id="email" placeholder="E-mail">
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem full-width">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" id="mensagem" cols="30" rows="10" placeholder="Sua mensagem">                      
+                    </textarea>
+                </div>
+
+                <div class="form-group full-width">
+                    <button type="submit">Enviar mensagem</button>
+                </div>
+
+            </fieldset>
+        </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <p>Feito com Curso de HTML e CSS - Víctor Hugo</p>
+    </footer>
+        
+    <a href="#" class="back-to-top">↑</a>
+
+    <script>
+  const toggleButton = document.getElementById('toggle-theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  // Carrega preferência salva
+  if (localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && prefersDark)) {
+    document.body.classList.add('dark-mode');
+  }
+
+  toggleButton.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    const isDark = document.body.classList.contains('dark-mode');
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+  });
+</script>
+
+</body>
+</html>
