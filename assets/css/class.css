@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-.main-bg {
-    background-image:url('../img/pattern-randomized.svg');
-    background-size: cover;
-    background-position: center center;
-}
-
 .white-bg {
     background-color:var(--white-color);
     color: #121216;
@@ -106,12 +99,14 @@
 .responsive-table {
     overflow: hidden;
     overflow-x: auto;
-=======
+    
+    }
+
 .main-bg {
-    background-image:url('../img/main-backgroud.svg');
+    background-image:url('../img/pattern-randomized.svg');
     background-size: cover;
     background-position: center center;
-    color:var(--white-color)
+
 }
 
 .white-bg {
@@ -149,7 +144,7 @@
 
 .menu h1 {
     font-size: 2.3rem;
-    color: var(--primary-color#020123);
+    color: var(--primary-color);
 }
 
 .menu h1 a {
@@ -215,5 +210,4 @@
 .responsive-table {
     overflow: hidden;
     overflow-x: auto;
->>>>>>> 3501e72cebd2441b8a919bac5d38144b2d9d7b25
 }

@@ -1,16 +1,7 @@
-<<<<<<< HEAD
 :root {
     --primary-color: #121216;
     --white-color: #ffffff;
     --secondary-color: #FF503A;
     --gap: 3rem;
     --light-gray-color: #eee;
-=======
-:root {
-    --primary-color: #020123;
-    --white-color: #ffffff;
-    --secondary-color: #FF503A;
-    --gap: 3rem;
-    --light-gray-color: #eee;
->>>>>>> 3501e72cebd2441b8a919bac5d38144b2d9d7b25
 }
