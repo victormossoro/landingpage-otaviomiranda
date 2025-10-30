@@ -1,13 +1,12 @@
 .main-bg {
-    background-image:url('../img/main-backgroud.svg');
+    background-image:url('../img/pattern-randomized.svg');
     background-size: cover;
     background-position: center center;
-    color:var(--white-color)
 }
 
 .white-bg {
     background-color:var(--white-color);
-    color: #020123;
+    color: #121216;
 }
 
 .main-content {
@@ -17,7 +16,7 @@
 }
 
 .section {
-    min-height: auto;
+    min-height: 100vh;
 }
 
 .menu {

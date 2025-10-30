@@ -2,26 +2,31 @@ html {
     font-size: 62.5%;
 }
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     color: var(--primary-color);
     line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
     font-size: 5rem;
-    text-transform: uppercase;
 }
+
+p, li, a {
+  font-weight: 400;
+}
+
 h2 {
     font-size: 4.5rem;
     margin-bottom: 5rem;
-    text-transform: uppercase;
+    text-transform: none;
     line-height: 1;
 }
+
 h3 {
     font-size: 4rem;
 }
@@ -40,7 +45,7 @@ a {
 }
 
 p {
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
 }
 
 table {
